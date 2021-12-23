@@ -1,0 +1,25 @@
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+.header-image img {
+    width: 600px;
+    height: 600px;
+    object-fit: contain;
+}
+header {
+    background: 1F2937;
+   
+}
+.head {
+    background: 1F2937;
+}
+body {
+    background: red;
+}
