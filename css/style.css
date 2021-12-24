@@ -42,6 +42,10 @@ ul li {
     font-size: 18px;
     color: #E5E7EB;
 }
+ul li a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
 .hero-main {
     display: flex;
     align-items: center;
@@ -65,6 +69,7 @@ h1 {
     padding: 10px;
    /* border: 2px solid #F9FAF8;*/
     border-radius: 10px;
+    border: 2px solid #E5E7EB
 }
 
 
@@ -122,15 +127,21 @@ blockquote {
     justify-content: space-around;
     align-items: center;
     margin: 70px 90px;
-    padding: 20px;}
+    padding: 20px;
+    background: #3882f6;
+    border-radius: 5px;
+}
     
 
 .form-text p,.form-text h2{
-    border : 2px solid red;
+  
     padding-bottom: 0;
     padding-top: 0;
     margin-bottom: 0;
-    margin-top:0;}
+    margin-top:0;
+    color: #E5E7EB;
+    
+}
   /*display: flex;
     flex-direction: column;
     justify-content: center;
@@ -138,4 +149,7 @@ blockquote {
 }*/
 .footer {
     background: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
 }
